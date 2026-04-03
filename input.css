@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/*
+body {
+  background-color: #1A1B23;
+  color: white;
+  font-size: 18px;
+  font-family: Arial;
+  margin: 0px;
+}
+
+#container {
+  background-color: black;
+  padding: 0px 15px;
+  margin: auto;
+  max-width: 900px;
+  height: 100vh;
+}
+
+#top button {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+button:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+#filter-btn {
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+}
+*/

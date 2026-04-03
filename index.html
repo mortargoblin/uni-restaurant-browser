@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restaurant Browser</title>
-  <link rel="stylesheet" href="main.css">
-  <script src="main.js" defer></script>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Browser</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="main.js" defer></script>
+  </head>
+  <!--
+    Palette: 000814 001D3D 003566 FFC300 FFD60A
+             Ink    Pruss  Navy   Bus    Gold
+  -->
+  <body class="bg-[#000814]">
+    <div id="container" 
+         class=
+         "text-white 
+          max-w-300 
+          m-auto 
+          p-10
+          pt-0
+          rounded-sm">
+      <nav id="top" class="flex flex-row text-black flex-row-reverse">
+        <div class="bg-[#FFD60A] p-2 m-3 ml-0 rounded-r-lg flex flex-row">
+          <button class="pr-3">Account</button>
+          <img src="user.jpg" class="w-10 rounded-full">
+        </div>
+          <button class="bg-[#FFC300] p-2 m-3 ml-0">Filler</button>
+        <button class="bg-[#FFC300] p-2 m-3 ml-0">Filler</button>
+        <button class="bg-[#FFC300] p-2 m-3 ml-0 rounded-l-lg">Filler</button>
+      </nav>
 
-<body>
-  <div id="container">
-    <div id="top">
-      <button>Account</button>
-      <button>Filler</button>
-      <button>Filler</button>
-      <button>Filler</button>
-    </div>
+      <div>
+        <h1 class="text-5xl">
+          Uni Restaurant Browser
+        </h1>
+      </div>
 
-    <div>
-      <h1>Uni Restaurant Browser</h1>
+      <div>
+        <button id="filter-btn">Filter</button>
+        <div id="restaurant-list">
+        </div>
+      </div>
     </div>
-
-    <div>
-      <button id="filter-btn">Filter</button>
-      <ul id="restaurant-list">
-        <li>filler</li>
-        <li>filler</li>
-        <li>filler</li>
-        <li>filler</li>
-        <li>filler</li>
-        <li>filler</li>
-        <li>filler</li>
-        <li>filler</li>
-        <li>filler</li>
-        <li>filler</li>
-      </ul>
-    </div>
-  </div>
-</body>
+  </body>
 
 </html>
