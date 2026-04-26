@@ -26,7 +26,7 @@
           <button class="pr-3">Account</button>
           <img src="user.jpg" class="w-10 rounded-full">
         </div>
-          <button class="bg-[#FFC300] p-2 m-3 ml-0">Filler</button>
+        <button class="bg-[#FFC300] p-2 m-3 ml-0">Filler</button>
         <button class="bg-[#FFC300] p-2 m-3 ml-0">Filler</button>
         <button class="bg-[#FFC300] p-2 m-3 ml-0 rounded-l-lg">Filler</button>
       </nav>
@@ -38,9 +38,27 @@
       </div>
 
       <div>
-        <button id="filter-btn">Filter</button>
-        <div id="restaurant-list">
+
+        <div id="menu-container" class="mt-6 bg-[#001D3D] p-4 rounded-t-lg">
+          <h2 class="text-2xl mb-2">Ruokalista</h2>
+          <div id="menu-list"></div>
         </div>
+
+        <div class="flex gap-4 mb-4">
+          <button id="daily-btn" class="bg-[#003566] p-2 rounded-b">
+            Menu of the day
+          </button>
+
+          <button id="weekly-btn" class="bg-[#003566] p-2 rounded-b">
+            Menu of the week
+          </button>
+
+          <button id="filter-btn" class="bg-[#003566] p-2 rounded-b">
+            Filter
+          </button>
+        </div>
+
+        <div id="restaurant-list" class="grid gap-4"></div>
       </div>
     </div>
   </body>
